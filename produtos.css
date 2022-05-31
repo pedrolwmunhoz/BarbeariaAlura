@@ -1,0 +1,64 @@
+header{
+    background: #bbbbbb;
+    padding: 20px 0; /*Adiciona uma margem interna*/
+}
+.caixa{
+    position: relative;
+    width: 940px; /*Largura*/
+    margin: 0 auto; /*margem cima e baixo 0, esquerda e direita autocalculada*/
+}
+
+nav{
+    position: absolute; /*define um ponto de inicio para o objeto*/
+    top: 110px; 
+    right: 0;
+}
+
+nav li{
+    display: inline; /*desbloqueia o objeto para não ocupar 100% da página*/
+    margin: 0 0 0 15px; /*coloca margem no objeto: cima, esquerda, baixo, direita*/
+}
+
+nav a{
+    text-transform: uppercase; /*transforma o texto em maiúsculo*/
+    color: #000000; 
+    font-weight: bold; /*font-weight:peso da fonte | bold: negrito */
+    font-size: 22px; 
+    text-decoration: none; /*tira sublinhado neste caso;*/
+
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
